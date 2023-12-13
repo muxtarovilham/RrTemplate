@@ -1,0 +1,356 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+header nav {
+  width: 100%;
+  justify-content: space-around;
+  background-color: #FFA800;
+}
+header nav p {
+  color: white;
+  font-weight: 500;
+}
+header nav ul {
+  display: flex;
+  gap: 33px;
+}
+header nav ul a {
+  color: white;
+}
+header nav .hdz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+header nav .hdc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+header .hdr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 100%;
+}
+header .hdr .hdrr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  width: 90%;
+}
+header .hdr .hdrr .hdr2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 33px;
+}
+header .hdr .hdrr .hdr2 .hdr21 {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 21px;
+  color: white;
+}
+header .hdr .hdrr .hdr2 .hdr22 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+header .hdr .hdrr .hdr2 .hdr22 button {
+  color: yellow;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: color 0.4s ease;
+}
+header .hdr .hdrr .hdr2 .hdr22 button:hover {
+  color: white;
+}
+header .hdr .hdrr .hdr1 {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+header .hdr .hdrr .hdr1 h1 {
+  color: yellow;
+  font-size: 33px;
+}
+header .hdr .hdrr .hdr1 h2 {
+  color: white;
+  font-size: 33px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+main input {
+  width: 148px;
+  height: 33px;
+  border: 1px solid gainsboro;
+}
+main #searchz {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+main #searchz .boxz {
+  border-bottom: 1px solid rgb(0, 166, 255);
+}
+main .sec1 {
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+main .sec1 img {
+  width: 100%;
+  height: 600px;
+  filter: brightness(66%);
+}
+main .sec1 .sec11 {
+  width: 40%;
+  height: 313px;
+  position: absolute;
+  top: 33%;
+  left: 30%;
+  text-align: center;
+  color: white;
+}
+main .sec1 .sec11 h1 {
+  font-weight: 700;
+  font-size: 55px;
+}
+main .sec1 .sec11 p {
+  font-weight: 500;
+  font-size: 21px;
+}
+main .sec1 .sec11 button {
+  width: 174px;
+  height: 60px;
+  background-color: #FFA800;
+  color: white;
+  border: none;
+  transition: color 0.4s ease;
+  transition: background-color 0.4s ease;
+  font-weight: 700;
+}
+main .sec1 .sec11 button:hover {
+  background-color: white;
+  color: #FFA800;
+}
+main .sec2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+main .sec2 .colz {
+  width: 90%;
+  height: 98%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 21px;
+}
+main .sec2 .colz .line {
+  width: 14%;
+  height: 3px;
+  background-color: #FFA800;
+}
+main .sec2 .colz img {
+  width: 100%;
+  height: auto;
+}
+main .sec2 .colz p {
+  color: gray;
+}
+main .sec2 .colz span {
+  color: gray;
+}
+main .sec2 .colz button {
+  width: 174px;
+  height: 60px;
+  background-color: #FFA800;
+  color: white;
+  border: none;
+  transition: color 0.4s ease;
+  transition: background-color 0.4s ease;
+  font-weight: 700;
+}
+main .sec2 .colz button:hover {
+  background-color: white;
+  color: #FFA800;
+  border: 1px solid #FFA800;
+}
+main .sec3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  gap: 21px;
+}
+main .sec3 #product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 21px;
+  flex-wrap: wrap;
+}
+main .sec3 #product .box img {
+  width: 100%;
+}
+main .sec3 #product .box button {
+  width: 77%;
+  height: 40px;
+  background-color: #15191F;
+  color: white;
+  border: none;
+  transition: color 0.4s ease;
+  transition: background-color 0.4s ease;
+  font-weight: 700;
+}
+main .sec3 #product .box button:hover {
+  background-color: white;
+  color: #15191F;
+  border: 1px solid #15191F;
+}
+main .sec3 #load {
+  width: 148px;
+  height: 40px;
+  background-color: #FFA800;
+  color: white;
+  border: none;
+  transition: color 0.4s ease;
+  transition: background-color 0.4s ease;
+  font-weight: 700;
+}
+main .sec3 #load:hover {
+  background-color: white;
+  color: #FFA800;
+  border: 1px solid #FFA800;
+}
+main .sec3 .sec33 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .sec3 .sec33 .line {
+  width: 14%;
+  height: 3px;
+  background-color: #FFA800;
+}
+main .sec3 .sec33 p {
+  color: gray;
+}
+main .sec3 .sec33 h1 {
+  color: black;
+}
+main .sec4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+main .sec4 .sec44 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .sec4 .colc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 95%;
+  flex-direction: column;
+}
+main .sec4 .colc button {
+  width: 174px;
+  height: 60px;
+  background-color: #FFA800;
+  color: white;
+  border: none;
+  transition: color 0.4s ease;
+  transition: background-color 0.4s ease;
+  font-weight: 700;
+}
+main .sec4 .colc button:hover {
+  background-color: white;
+  color: #FFA800;
+  border: 1px solid #FFA800;
+}
+main .sec4 .colc h1 {
+  font-size: 21px;
+}
+main .sec4 .colc img {
+  width: 100%;
+  height: auto;
+}
+main .enddiv {
+  background-color: #15191F;
+  width: 100%;
+  height: 313px;
+}
+
+footer {
+  background-color: #0a0b0c;
+  width: 100%;
+  height: 40px;
+}
+footer p {
+  color: gray;
+}
+
+@media only screen and (max-width: 400px) {
+  header .hdr .hdrr {
+    flex-direction: column;
+  }
+  header .hdr .hdrr .hdr22 button {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  header .hdr .hdrr {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 800px) {
+  main .sec1 .sec11 h1 {
+    font-size: 21px;
+  }
+  main .sec1 .sec11 p {
+    font-size: 14px;
+  }
+}
